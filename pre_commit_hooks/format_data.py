@@ -11,6 +11,14 @@ template = """
 
 An awesome list of data deduplication use cases, papers, tools, and methods.
 
+## How to contribute
+
+1. Fork this repository;
+2. Install the dependencies `pip install -r requirements.txt` and `pre-commit install`;
+3. Add your data to the corresponding folder by copying the `template.json` file;
+4. Run `pre-commit run --all-files` to format the data;
+5. Commit your changes and open a pull request to this repository.
+
 ## Textual Data
 
 {text_data}
