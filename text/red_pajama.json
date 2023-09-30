@@ -1,0 +1,10 @@
+{
+    "Paper": "[NA]()",
+    "Dataset": "[RedPajama](https://github.com/togethercomputer/RedPajama-Data)",
+    "Final Data Size": "1.2T Tokens",
+    "Method": "SimHash (partial)",
+    "Hardware": "NA",
+    "License": "Apache 2.0",
+    "Comments": [
+    ]
+}

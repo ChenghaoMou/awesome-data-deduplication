@@ -1,0 +1,10 @@
+{
+    "Paper": "[NA]()",
+    "Dataset": "[SlimPajama](https://github.com/Cerebras/modelzoo/tree/main/modelzoo/transformers/data_processing/slimpajama)",
+    "Final Data Size": "627B Tokens",
+    "Method": "MinHash + LSH",
+    "Hardware": "NA",
+    "License": "Apache 2.0",
+    "Comments": [
+    ]
+}

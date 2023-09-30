@@ -1,0 +1,7 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: format-data
+        name: format-data
+        entry: python ./pre_commit_hooks/format_data.py
+        language: system

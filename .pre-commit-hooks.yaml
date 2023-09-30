@@ -1,0 +1,6 @@
+-   id: format-data
+    name: format json data into markdown tables
+    description: pull all json files in the data directories to form markdown tables in the readme file
+    entry: format_data
+    language: python
+    types: [python]
