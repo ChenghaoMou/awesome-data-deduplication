@@ -1,0 +1,11 @@
+{
+    "Paper": "[arxiv](https://arxiv.org/abs/2404.03608)",
+    "Dataset": "Multiple Sources",
+    "Final Data Size": "200B ~ 400B tokens",
+    "Method": "MinHash",
+    "Hardware": "200GB w/ 64 cores",
+    "License": "Apache 2.0",
+    "Comments": [
+        "This uses a variant of the spark script from [text-dedup](https://github.com/ChenghaoMou/text-dedup) 🎉️;"
+    ]
+}

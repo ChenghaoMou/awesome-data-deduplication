@@ -33,6 +33,7 @@ An awesome list of data deduplication use cases, papers, tools, and methods.
 
 """
 comments = []
+seen_comments = {}
 
 def load_data(path):
     global comments
@@ -46,7 +47,11 @@ def load_data(path):
         new_cell = []
         if data["Comments"]:
             for comment in data["Comments"]:
-                new_cell.append(f"[^{len(comments) + 1}]")
+                if comment in seen_comments:
+                    new_cell.append(seen_comments[comment])
+                    continue
+                seen_comments[comment] = f"[^{len(comments) + 1}]"
+                new_cell.append(seen_comments[comment])
                 comments.append(f"[^{len(comments) + 1}]: {comment}")
         data["Comments"] = ", ".join(new_cell)
         records.append(data)
